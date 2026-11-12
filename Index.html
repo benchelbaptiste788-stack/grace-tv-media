@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grace TV Média</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080d18;color:white;font-family:Arial}
+header{background:#14223b;padding:18px;text-align:center}
+header h1{color:#ff8b00}
+nav{display:flex;justify-content:space-around;padding:15px;background:#101a2d;flex-wrap:wrap;gap:12px}
+a{color:white;text-decoration:none}
+main{padding:18px;max-width:850px;margin:auto}
+.hero{background:linear-gradient(130deg,#ff8500,#087de0);padding:28px;border-radius:15px}
+button{padding:12px;border:0;border-radius:8px;background:#ff8500;color:white}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:#14223b;padding:20px;border-radius:12px}
+footer{text-align:center;padding:25px;color:#aaa}
+</style>
+</head>
+<body>
+<header>
+<h1>GRACE TV MÉDIA</h1>
+<p>La télévision qui nourrit votre foi</p>
+</header>
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#direct">Direct</a>
+<a href="#videos">Vidéos</a>
+<a href="#musique">Musique</a>
+</nav>
+<main>
+<section class="hero" id="accueil">
+<h2>Bienvenue sur Grace TV Média</h2>
+<p>La parole de Dieu partout avec vous.</p>
+<button onclick="location.href='#direct'">Regarder maintenant</button>
+</section>
+<section id="direct">
+<h2>🔴 TV EN DIRECT</h2>
+<div class="card">
+<h3>Grace TV en direct</h3>
+<p>Retrouvez nos émissions en direct.</p>
+</div>
+</section>
+<section id="videos">
+<h2>🎬 Nos programmes</h2>
+<div class="grid">
+<div class="card">🙏<h3>Prédications</h3></div>
+<div class="card">📖<h3>Enseignements</h3></div>
+<div class="card">🎤<h3>Émissions</h3></div>
+<div class="card">🎵<h3>Musique</h3></div>
+</div>
+</section>
+<section id="musique">
+<h2>🎶 Louange et adoration</h2>
+<p>Bienvenue dans notre espace musical.</p>
+</section>
+</main>
+<footer>© 2026 Grace TV Média</footer>
+</body>
+</html>
+  
