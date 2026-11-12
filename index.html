@@ -1,1 +1,71 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grace TV Média</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080d18;color:white;font-family:Arial}
+header{background:#101a2d;padding:20px;text-align:center}
+header h1{color:#ff8500;margin:5px}
+nav{display:flex;justify-content:space-around;gap:12px;padding:16px;background:#14223b;flex-wrap:wrap}
+a{color:white;text-decoration:none}
+main{padding:18px;max-width:850px;margin:auto}
+.hero{background:linear-gradient(130deg,#ff8500,#0786ed);padding:28px;border-radius:16px}
+button{background:#ff8500;color:white;border:0;padding:13px;border-radius:8px}
+.card{background:#14223b;padding:20px;border-radius:12px;margin:12px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+h2{color:#ff9a22}
+footer{text-align:center;padding:25px;color:#aaa}
+</style>
+</head>
+<body>
+<header>
+<h1>GRACE TV MÉDIA</h1>
+<p>La télévision qui nourrit votre foi</p>
+</header>
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#direct">TV Direct</a>
+<a href="#videos">Vidéos</a>
+<a href="#musique">Musique</a>
+</nav>
+<main>
+<section class="hero" id="accueil">
+<h2>Bienvenue sur Grace TV Média</h2>
+<p>La parole de Dieu, la louange et l'adoration partout avec vous.</p>
+<button onclick="location.href='#direct'">Regarder maintenant</button>
+</section>
+
+<section id="direct">
+<h2>🔴 TV EN DIRECT</h2>
+<div class="card">
+<h3>Grace TV en direct</h3>
+<p>Retrouvez nos programmes et cultes en direct.</p>
+</div>
+</section>
+
+<section id="videos">
+<h2>🎬 Nos vidéos</h2>
+<div class="grid">
+<div class="card">🙏<h3>Prédications</h3></div>
+<div class="card">📖<h3>Enseignements</h3></div>
+<div class="card">🎤<h3>Émissions</h3></div>
+<div class="card">📺<h3>Programmes</h3></div>
+</div>
+</section>
+
+<section id="musique">
+<h2>🎵 Musique chrétienne</h2>
+<div class="card">
+<h3>Louange et adoration</h3>
+<p>Nos sélections musicales arrivent bientôt.</p>
+</div>
+</section>
+</main>
+<footer>© 2026 Grace TV Média</footer>
+</body>
+</html>
+
